@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chukwu Martin Ndubuisi — Data Analyst portfolio. Skilled in Python, SQL, Power BI, Excel and data visualization." />
+  <meta name="keywords" content="Data Analyst, Python, SQL, Power BI, Excel, Nigeria, Umuahia, Martin Chukwu" />
+  <meta name="author" content="Chukwu Martin Ndubuisi" />
+  <meta property="og:title" content="Martin Chukwu | Data Analyst" />
+  <meta property="og:description" content="Entry-level Data Analyst transforming raw data into actionable insights." />
+  <meta property="og:type" content="website" />
+  <title>Martin Chukwu | Data Analyst</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Martin<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#visualization" class="nav-link">Charts</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+        <h1 class="hero-name animate-fade-up delay-1">Chukwu Martin<br /><span class="name-accent">Ndubuisi</span></h1>
+        <div class="hero-title-wrapper animate-fade-up delay-2">
+          <span class="hero-title-line"></span>
+          <p class="hero-title">Data Analyst</p>
+          <span class="hero-title-line"></span>
+        </div>
+        <p class="hero-tagline animate-fade-up delay-3">
+          Transforming raw data into <em>actionable insights</em> — one query at a time.
+        </p>
+        <div class="hero-buttons animate-fade-up delay-4">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-chart-bar"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-stats animate-fade-up delay-5">
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Years Teaching</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Tools Mastered</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image animate-float">
+        <div class="image-frame">
+          <div class="image-decoration"></div>
+          <img src="martin-photo.jpg" alt="Chukwu Martin Ndubuisi — Data Analyst" class="profile-img" />
+          <div class="image-badge">
+            <i class="fas fa-database"></i>
+            <span>Data Analyst</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col reveal">
+          <div class="about-img-wrapper">
+            <img src="martin-photo.jpg" alt="Martin Chukwu" class="about-img" />
+            <div class="about-img-deco"></div>
+          </div>
+          <div class="about-tag-card">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <strong>B.Sc. Biochemistry</strong>
+              <span>Second Class Upper</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal delay-1">
+          <h3 class="about-subtitle">Data Analyst & Educator based in <span class="accent">Umuahia, Nigeria</span></h3>
+          <p class="about-text">
+            I'm an entry-level Data Analyst with a strong academic foundation and a genuine passion for transforming complex datasets into clear, compelling stories. With a B.Sc. in Biochemistry and a Postgraduate Diploma in Education from Nnamdi Azikiwe University, I bring an analytical, structured mindset to everything I do.
+          </p>
+          <p class="about-text">
+            Currently, I work at <strong>Digital Dreams ICT Academy</strong> where I prepare and deliver training in Data Analysis and Video Editing — both online and in person. I've created visual dashboards for instructional use and produced high-quality training video content.
+          </p>
+          <p class="about-text">
+            I thrive on discovering patterns hidden within data and communicating findings in a way that empowers decision-makers. When I'm not wrangling data, you'll find me reading, researching, or exploring new ideas that connect technology with real-world impact.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+              <span class="info-value">Umuahia, Abia State, Nigeria</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-envelope"></i> Email</span>
+              <span class="info-value">chuksmart814@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-phone"></i> Phone</span>
+              <span class="info-value">+234 703 577 1341</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label"><i class="fas fa-language"></i> Languages</span>
+              <span class="info-value">English, Igbo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-bars reveal">
+          <h3 class="skills-col-title">Technical Proficiency</h3>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fab fa-python"></i> Python (Pandas)</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fas fa-database"></i> MySQL / SQL</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fas fa-file-excel"></i> Microsoft Excel</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fas fa-chart-pie"></i> Power BI</span>
+              <span class="skill-pct">78%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fas fa-chart-line"></i> Data Visualization</span>
+              <span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-header">
+              <span class="skill-name"><i class="fas fa-broom"></i> Data Cleaning</span>
+              <span class="skill-pct">88%</span>
+            </div>
+            <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+        </div>
+        <div class="skill-cards-col reveal delay-1">
+          <h3 class="skills-col-title">Tools & Technologies</h3>
+          <div class="skill-cards-grid">
+            <div class="skill-card">
+              <div class="skill-card-icon python"><i class="fab fa-python"></i></div>
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon sql"><i class="fas fa-database"></i></div>
+              <span>SQL</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon excel"><i class="fas fa-table"></i></div>
+              <span>Excel</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon powerbi"><i class="fas fa-chart-pie"></i></div>
+              <span>Power BI</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon tableau"><i class="fas fa-chart-bar"></i></div>
+              <span>Tableau</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon stats"><i class="fas fa-square-root-variable"></i></div>
+              <span>Statistics</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon ml"><i class="fas fa-brain"></i></div>
+              <span>ML Basics</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon html"><i class="fab fa-html5"></i></div>
+              <span>HTML/CSS</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-icon photoshop"><i class="fas fa-image"></i></div>
+              <span>Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-card-top sales">
+            <i class="fas fa-chart-line project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Pandas</span>
+              <span class="tool-tag">Excel</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Sales Data Analysis</h3>
+            <p class="project-desc">End-to-end analysis of retail sales data — identifying trends, top-performing products, and seasonal revenue patterns using Python and Excel dashboards.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-card-top segment">
+            <i class="fas fa-users project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">K-Means</span>
+              <span class="tool-tag">Power BI</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Customer Segmentation</h3>
+            <p class="project-desc">Applied clustering algorithms to segment customers by purchasing behaviour, enabling targeted marketing campaigns and improving customer retention insights.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-card-top finance">
+            <i class="fas fa-coins project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">Power BI</span>
+              <span class="tool-tag">DAX</span>
+              <span class="tool-tag">Excel</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Financial Data Dashboard</h3>
+            <p class="project-desc">Interactive Power BI dashboard tracking KPIs, revenue streams, and expense breakdowns with drill-through pages and dynamic DAX measures.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top cleaning">
+            <i class="fas fa-broom project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Pandas</span>
+              <span class="tool-tag">NumPy</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Data Cleaning in Python</h3>
+            <p class="project-desc">Comprehensive data wrangling pipeline: handling null values, outlier detection, type conversion, and feature engineering — ready for machine learning pipelines.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-card-top covid">
+            <i class="fas fa-virus project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Matplotlib</span>
+              <span class="tool-tag">SQL</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">COVID-19 Data Analysis</h3>
+            <p class="project-desc">Exploratory data analysis of global COVID-19 statistics — visualising case trajectories, mortality rates, and recovery trends across countries using Python.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-card-top student">
+            <i class="fas fa-graduation-cap project-icon"></i>
+            <div class="project-tools">
+              <span class="tool-tag">MySQL</span>
+              <span class="tool-tag">Excel</span>
+              <span class="tool-tag">Reports</span>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Student Academic Records DB</h3>
+            <p class="project-desc">Designed and managed a relational database for student academic records at Intellectual Giants' Academy — automating result uploads and report generation.</p>
+            <a href="https://github.com/chuksmart814" target="_blank" class="btn-project">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VISUALIZATION SECTION ========== -->
+  <section class="visualization section" id="visualization">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Data in Action</span>
+        <h2 class="section-title">Data <span class="accent">Visualizations</span></h2>
+        <p class="section-subtitle">Sample charts demonstrating analytical capability — interactive and dynamic.</p>
+      </div>
+      <div class="charts-grid">
+        <div class="chart-card reveal">
+          <h3 class="chart-title"><i class="fas fa-chart-bar"></i> Monthly Sales Performance</h3>
+          <div class="chart-wrapper">
+            <canvas id="salesChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card reveal delay-1">
+          <h3 class="chart-title"><i class="fas fa-chart-pie"></i> Customer Segments</h3>
+          <div class="chart-wrapper">
+            <canvas id="segmentChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card reveal delay-2">
+          <h3 class="chart-title"><i class="fas fa-chart-line"></i> COVID-19 Case Trend</h3>
+          <div class="chart-wrapper">
+            <canvas id="covidChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-card reveal">
+          <h3 class="chart-title"><i class="fas fa-circle-dot"></i> Skills Radar</h3>
+          <div class="chart-wrapper">
+            <canvas id="skillsChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESUME SECTION ========== -->
+  <section class="resume section" id="resume">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Experience & <span class="accent">Education</span></h2>
+      </div>
+      <div class="resume-grid">
+        <div class="resume-col reveal">
+          <h3 class="resume-col-title"><i class="fas fa-briefcase"></i> Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2024 — Present</span>
+                <h4>Data Analyst & Video Editor</h4>
+                <p class="timeline-org">Digital Dreams ICT Academy</p>
+                <ul class="timeline-list">
+                  <li>Prepare training materials for Data Analysis programs</li>
+                  <li>Deliver online and in-person training sessions</li>
+                  <li>Analyze datasets and create visual dashboards</li>
+                  <li>Produce and edit high-quality training video content</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2019 — 2022</span>
+                <h4>Computer Studies / Data Processing Tutor</h4>
+                <p class="timeline-org">Intellectual Giants' Christian Academy</p>
+                <ul class="timeline-list">
+                  <li>Created lesson plans and taught Computer Studies</li>
+                  <li>Managed student databases and digital academic records</li>
+                  <li>Processed and uploaded student result data on school portal</li>
+                  <li>Generated academic reports for stakeholders</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="resume-col reveal delay-1">
+          <h3 class="resume-col-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022</span>
+                <h4>PGDE — Educational Foundations</h4>
+                <p class="timeline-org">Nnamdi Azikiwe University, Awka</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2014</span>
+                <h4>B.Sc. (Hons) Biochemistry — 2nd Class Upper</h4>
+                <p class="timeline-org">Michael Okpara University of Agriculture, Umudike</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022</span>
+                <h4>Diploma — Data Analysis & Front-End Web Dev</h4>
+                <p class="timeline-org">Digital Dreams ICT Academy</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2024</span>
+                <h4>Technical Support Fundamentals</h4>
+                <p class="timeline-org">Google / Coursera</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download Resume -->
+      <div class="resume-download reveal">
+        <div class="resume-download-card">
+          <div class="resume-download-text">
+            <i class="fas fa-file-pdf"></i>
+            <div>
+              <h3>Download My Full Resume</h3>
+              <p>Get the complete CV with all experience, certifications, and references.</p>
+            </div>
+          </div>
+          <a href="martin-resume.pdf" download="Chukwu_Martin_Resume.pdf" class="btn btn-primary btn-large">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+        <p class="section-subtitle">Open to data analyst roles, collaborations, and freelance projects.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-card">
+            <div class="contact-icon-wrap email-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:chuksmart814@gmail.com">chuksmart814@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon-wrap phone-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+2347035771341">+234 703 577 1341</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon-wrap github-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/chuksmart814" target="_blank">github.com/chuksmart814</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon-wrap linkedin-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/chukwu-martin" target="_blank">linkedin.com/in/chukwu-martin</a>
+            </div>
+          </div>
+          <div class="contact-availability">
+            <div class="availability-dot"></div>
+            <span>Available for new opportunities</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent successfully! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>Martin<span class="logo-bracket">/&gt;</span>
+          </a>
+          <p>Data Analyst passionate about turning raw data into meaningful insights that drive informed decisions.</p>
+          <div class="footer-socials">
+            <a href="mailto:chuksmart814@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/chuksmart814" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/chukwu-martin" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#visualization">Charts</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-skills">
+          <h4>Core Skills</h4>
+          <ul>
+            <li><i class="fab fa-python"></i> Python / Pandas</li>
+            <li><i class="fas fa-database"></i> MySQL</li>
+            <li><i class="fas fa-chart-pie"></i> Power BI</li>
+            <li><i class="fas fa-table"></i> Excel Dashboards</li>
+            <li><i class="fas fa-chart-line"></i> Data Visualization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Chukwu Martin Ndubuisi. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart" style="color:#e05c5c"></i> in Umuahia, Nigeria</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
